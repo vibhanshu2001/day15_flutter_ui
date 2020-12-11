@@ -20,8 +20,8 @@ class _StatusScreenState extends State<StatusScreen> {
                   CircleAvatar(
                     foregroundColor: Theme.of(context).primaryColor,
                     backgroundColor: Colors.grey,
-                    backgroundImage: NetworkImage(
-                        'https://images.pexels.com/photos/3366753/pexels-photo-3366753.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'),
+                    backgroundImage: AssetImage(
+                        'assets/images/person9.png'),
                     radius: 30,
                   ),
                   Positioned(
@@ -84,8 +84,8 @@ class _StatusScreenState extends State<StatusScreen> {
                   CircleAvatar(
                     foregroundColor: Theme.of(context).primaryColor,
                     backgroundColor: Colors.grey,
-                    backgroundImage: NetworkImage(
-                        'https://images.pexels.com/photos/3366753/pexels-photo-3366753.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'),
+                    backgroundImage: AssetImage(
+                        'assets/images/person1.jpeg'),
                     radius: 30,
                   ),
                 ],
@@ -111,8 +111,8 @@ class _StatusScreenState extends State<StatusScreen> {
                   CircleAvatar(
                     foregroundColor: Theme.of(context).primaryColor,
                     backgroundColor: Colors.grey,
-                    backgroundImage: NetworkImage(
-                        'https://images.pexels.com/photos/3366753/pexels-photo-3366753.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'),
+                    backgroundImage: AssetImage(
+                        'assets/images/person2.jpeg'),
                     radius: 30,
                   ),
                 ],
@@ -138,8 +138,8 @@ class _StatusScreenState extends State<StatusScreen> {
                   CircleAvatar(
                     foregroundColor: Theme.of(context).primaryColor,
                     backgroundColor: Colors.grey,
-                    backgroundImage: NetworkImage(
-                        'https://images.pexels.com/photos/3366753/pexels-photo-3366753.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'),
+                    backgroundImage: AssetImage(
+                        'assets/images/person3.jpeg'),
                     radius: 30,
                   ),
                 ],
@@ -165,8 +165,8 @@ class _StatusScreenState extends State<StatusScreen> {
                   CircleAvatar(
                     foregroundColor: Theme.of(context).primaryColor,
                     backgroundColor: Colors.grey,
-                    backgroundImage: NetworkImage(
-                        'https://images.pexels.com/photos/3366753/pexels-photo-3366753.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'),
+                    backgroundImage: AssetImage(
+                        'assets/images/person4.jpeg'),
                     radius: 30,
                   ),
                 ],

@@ -29,9 +29,21 @@ class _WhatsAppHomeState extends State<WhatsAppHome>
           style: TextStyle(fontWeight: FontWeight.bold, fontSize: 25),
         ),
         actions: [
-          Icon(Icons.search_rounded, size: 30,),
+          IconButton(
+            icon: Icon(
+              Icons.search_rounded, size: 30,
+              color: Colors.white,
+            ),
+            onPressed: (){},
+          ),
           SizedBox(width: 10,),
-          Icon(Icons.more_vert, size: 30,),
+          IconButton(
+            icon: Icon(
+              Icons.more_vert, size: 30,
+              color: Colors.white,
+            ),
+            onPressed: (){},
+          ),
         ],
         elevation: 0.7,
         bottom: TabBar(
@@ -66,9 +78,10 @@ class _WhatsAppHomeState extends State<WhatsAppHome>
         backgroundColor: Theme.of(context).accentColor,
         elevation: 2,
         child: Icon(
-          Icons.message_rounded,
+          Icons.add,
           color: Colors.white,
         ),
+        tooltip: "Made by Vibhanshu Garg",
         onPressed: () {
           print("I am pressed");
         },

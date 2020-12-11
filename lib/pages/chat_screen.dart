@@ -21,7 +21,7 @@ class _ChatScreenState extends State<ChatScreen> {
             leading: CircleAvatar(
               foregroundColor: Theme.of(context).primaryColor,
               backgroundColor: Colors.grey,
-              backgroundImage: NetworkImage(dummyData[i].avatarUrl),
+              backgroundImage: AssetImage(dummyData[i].avatarUrl),
               radius: 30,
             ),
             title: Row(
